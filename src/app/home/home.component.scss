@@ -1,0 +1,407 @@
+.textoCorpo {
+  margin-top: 150px;
+  text-align: right;
+  color: white;
+}
+
+.imgBackground {
+  background: url("../../assets/img/3.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.bgTransparente {
+  background: url("../../assets/img/overaly.png") repeat;
+  height: 100%;
+}
+
+/*
+ * Globals
+ */
+
+nav {
+  margin-top: 50px;
+  margin-right: 200px;
+  text-align: right;
+  a {
+    text-decoration: none;
+    color: white;
+    margin: {
+      left: 10px;
+      right: 10px;
+    }
+  }
+  a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+}
+
+.marca {
+  margin: {
+    top: 50px;
+    left: 100px;
+  }
+  img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+.divider {
+  width: 90%;
+  margin-left: 3%;
+  height: 1px;
+  background-color: white;
+}
+
+.dividerSobre {
+  width: 90%;
+  // margin-left: 10px;
+  height: 1px;
+  background-color: orange;
+}
+
+.dividerFooter {
+  width: 70%;
+  margin-left: 15%;
+  margin: {
+    top: 50px;
+  }
+  height: 1px;
+  background-color: rgb(107, 107, 107);
+}
+
+footer {
+ color: white;
+}
+
+.boxCursos {
+  font: 15px caviarDreams;
+  height: 200px;
+  padding: {
+    top: 80px;
+  }
+  border:1px solid;
+  margin: 20px 10px 10px 20px;
+  color: #ada8a8;
+  i {
+    font-size: 25px;
+  }
+}
+
+.boxCursos:hover {
+    color: orange;
+}
+
+.botaoTop {
+  background-color: rgba(185, 185, 185, 0.5);
+  width: 50px;
+  border: none;
+  color: white;
+  font-size: 9px;
+  border-radius: 4px;
+    padding: {
+      top: 15px;
+      bottom: 15px;
+    }
+    margin: {
+      top: 20px;
+      margin-right: 20px;
+    }
+    a {
+      text-decoration: none;
+    }
+}
+
+
+.carrossel {
+  margin: {
+    top: 50px;
+    bottom: 20px;
+  }
+}
+
+
+
+.carousel-caption {
+  width: 50%;
+  text-align: left;
+  color: white;
+  margin: {
+    left: 20%;
+  }
+}
+
+.imageRounded {
+  margin: {
+    left: 15%;
+  }
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+.tituloSessao {
+  margin: {
+    top: 20px;
+  }
+  h2 {
+    color: white;
+    margin-left: 3%;
+  }
+}
+
+.sessaoCursos {
+  a {
+    text-decoration: none;
+  }
+}
+
+.quadrado {
+  border: 3px solid orange;
+  height: 100%;
+  width: 100%;
+  float: left;
+  z-index: -1;
+}
+
+.tituloSessaoSobre {
+  // background-color: aquamarine;
+  height: 100%;
+  margin: {
+    top: 20px;
+  }
+  img {
+    width: 90%;
+    height: 110%;
+    margin: {
+      top: -42px;
+      left: 10%;
+    }
+  }
+  h2 {
+    color: orange;
+  }
+  p {
+    margin-right: 80px;
+    color: white;
+  }
+}
+
+.buttonSaiba {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: orange;
+  margin: {
+    // top: px;
+    bottom: 20px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .video {
+    video {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .marca {
+    margin: {
+      top: 50px;
+      left: 23%;
+    }
+    img {
+      width: 200px;
+      height: 65px;
+    }
+  }
+
+  .dividerFooter {
+    width: 90%;
+    margin-left: 5%;
+    margin: {
+      top: 40px;
+    }
+    height: 1px;
+    background-color: rgb(107, 107, 107);
+  }
+
+  footer {
+    color: white;
+    margin: {
+      left: 5%;
+    }
+  }
+
+nav {
+  margin-top: 50px;
+  margin-left: 20px;
+  a {
+    text-decoration: none;
+    color: white;
+    margin: {
+      left: 10px;
+      right: 30px;
+    }
+  }
+  a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+}
+
+.textoCorpo {
+    margin-top: 70px;
+    text-align: right;
+    color: white;
+  }
+
+.carrossel {
+    margin: {
+      top: 20px;
+    }
+  .carousel-item {
+    height: 300px;
+    img {
+      border-radius: 100%;
+      width: 25%;
+      height: 25%;
+      margin: {
+        left: 40%;
+        bottom: -90px;
+      }
+    }
+  .carousel-caption {
+    margin-left: 20px;
+    width: 60%;
+    text-align: center;
+    color: white;
+  }
+  }
+  }
+
+  .tituloSessaoSobre {
+    // background-color: aquamarine;
+    height: 100%;
+    margin: {
+      top: 20px;
+    }
+    img {
+      margin: {
+        top: 15px;
+        left: 0%;
+        // right: 10px;
+      }
+      width: 100%;
+      height: 92%;
+    }
+    h2 {
+      // margin-left: %;
+      color: orange;
+    }
+    p {
+      text-align: justify;
+      color: white;
+      margin: {
+        top: 5px;
+        right: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+
+    .boxCursos {
+      font: 15px caviarDreams;
+      height: 200px;
+      width: 150px;
+      padding: {
+        top: 80px;
+      }
+      border:1px solid;
+      margin: 20px 10px 10px 0px;
+      color: #ada8a8;
+      i {
+        font-size: 25px;
+      }
+    }
+
+    .boxCursos:hover {
+        color: orange;
+    }
+
+    .tituloSessaoSobre {
+      height: 100%;
+      margin: {
+        top: 20px;
+      }
+      img {
+        margin: {
+          top: -37px;
+          left: 0%;
+          // right: 10px;
+        }
+        width: 100%;
+        height: 90%;
+      }
+      h2 {
+        // margin-left: %;
+        color: orange;
+      }
+      p {
+        text-align: justify;
+        color: white;
+        margin: {
+          top: 5px;
+          right: 5px;
+        }
+      }
+    }
+}
+
+@media (min-width: 768px) {
+  .tituloSessaoSobre {
+    height: 100%;
+    margin: {
+      top: 20px;
+    }
+    img {
+      // margin: {
+      //   // top: -37px;
+      //   left: 0%;
+      //   // right: 10px;
+      // }
+      width: 100%;
+      height: 90%;
+    }
+    h2 {
+      // margin-left: %;
+      color: orange;
+    }
+    p {
+      text-align: justify;
+      color: white;
+      margin: {
+        top: 5px;
+        right: 5px;
+      }
+    }
+  }
+}

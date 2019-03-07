@@ -1,0 +1,105 @@
+.header {
+  margin: {
+    bottom: 20px;
+  }
+}
+
+.linhaTopo {
+  color: rgb(173, 172, 172);
+  border-bottom: 1px solid rgb(173, 172, 172);
+  padding: {
+    top: 5px;
+    bottom: 10px;
+  }
+
+}
+
+.contato {
+  text-align: right;
+  a {
+    text-decoration: none;
+    color: rgb(170, 169, 169);
+    i {
+    margin-right: 10px;
+   }
+  }
+  a:hover {
+    text-decoration: none;
+    color: orange;
+  }
+}
+
+.linhaMenu {
+  border-bottom: 1px solid rgb(173, 172, 172);
+  padding: {
+    top: 8px;
+    bottom: 8px;
+  }
+  img {
+    margin-left: -13px;
+  }
+}
+
+.menuCursos {
+  text-align: right;
+  margin-top: 15px;
+  nav {
+    ul {
+      list-style-type: none;
+      li {
+        display: inline;
+        margin-right: 20px;
+        a {
+          text-decoration: none;
+          margin: {
+            left: 10px;
+            right: 10px;
+          }
+        }
+        a:hover {
+          border-bottom: 3px solid orange;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .linhaTopo {
+    text-align: center;
+    color: rgb(173, 172, 172);
+    border-bottom: 1px solid rgb(173, 172, 172);
+    padding: {
+      top: 5px;
+      bottom: 10px;
+    }
+  }
+
+  .contato {
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: rgb(170, 169, 169);
+      i {
+      margin-right: 10px;
+     }
+    }
+    a:hover {
+      text-decoration: none;
+      color: orange;
+    }
+  }
+
+  .linhaMenu {
+    text-align: center;
+  }
+
+  .menuCursos {
+    text-align: center;
+    margin-top: 15px;
+    nav {
+      margin-left: -35px;
+    }
+  }
+}

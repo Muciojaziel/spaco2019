@@ -1,0 +1,26 @@
+.galeria{
+    width: 180px;
+    border: 1px solid #777;
+    margin: 10px 0px 0px 80px; 
+    float: left;
+}
+
+.painelGaleria{
+    height: 500px;
+    margin: 50px;
+}
+
+.galeria:hover{
+    opacity: 0.5;
+    color: orange;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
